@@ -1,0 +1,7 @@
+deployment:
+ replicas:
+ imageRepo: bharathipotla
+ imageVersion: v1
+service:
+ type: LoadBalancer
+ port: 80
