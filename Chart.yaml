@@ -1,0 +1,15 @@
+##Chart.yaml is man for the Helm charts, this chart.yaml file tells to helm what is the chart,
+##who made, what kind of depued
+
+apiVersion: v2        # Helm chart API version (v2 for Helm 3)
+name: my-app          # Name of the chart
+description: A Helm chart for Kubernetes
+type: application     # "application" or "library"
+version: 1.0.0        # Chart version (semantic versioning)
+appVersion: "1.16.0"  # Version of the app being deployed (e.g., container image version)
+
+maintainers:          # Optional: who maintains this chart
+  - name: Bharathi
+    email: bharathi@example.com
+
+
